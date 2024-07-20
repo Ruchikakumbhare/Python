@@ -1,4 +1,7 @@
 #........list methods
+# 10 list methods
+#append(),pop(),remove(),index(),sort(),extend(),reverse(),clear(),count(),insert()
+
 
 #list = ["blue","red","green","pink","purple","black"]
 #print(list)
@@ -39,18 +42,20 @@ print(list1)         #output :['icecream', 'cupcake', 'chocalate', 'candy', 'cak
  
 #clear
 list1.clear()
-print(list1)        #empty output: []
+print(list1)           #empty output: []
 
 #count
 letter = ["a","b","c","q","q","a","c","q"]
 x =letter.count("a")
-print(x)            # count 2 output : 2
+print(x)                # count 2 output : 2
 
 y = letter.count("q")
-print(y)            #3
-
+print(y)                    #3
+ 
 #extend
-
 fruit = ["aam","kela","chiko","gam"]
 fruit.extend(["strawberry","cherry"])
-print(fruit)
+print(fruit)                     #extend list output: ['aam', 'kela', 'chiko', 'gam', 'strawberry', 'cherry']
+
+
+
