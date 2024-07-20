@@ -35,7 +35,7 @@ print(type (aa) )
 
 
 #15/07/24 practice
-"""
+
 
 m = "ruchika"
 print(type (m)) #CLASS STRING
@@ -64,3 +64,26 @@ elif p>30:
     print("correct")
 else:
     print("not possible")
+    """
+    
+#19/07/24
+
+#for x in range(10):
+ #   print(x)
+ 
+list = ["Soniya","priya","diya"]
+#for x in range(len(list)):
+#    print(x)
+   # print(list[x])
+   
+x = 2
+while(x>=0):
+    print(list)
+    x = x-1
+    
+for x in range (len(list)-1,-1,-1):
+    print(list[x])
+    
+    
+name = [ "ruchika","soniya","meena"]
+print(len(name))
