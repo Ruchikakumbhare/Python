@@ -64,7 +64,7 @@ elif p>30:
     print("correct")
 else:
     print("not possible")
-    """
+    
     
 #19/07/24
 
@@ -87,3 +87,48 @@ for x in range (len(list)-1,-1,-1):
     
 name = [ "ruchika","soniya","meena"]
 print(len(name))
+
+
+
+#22/07
+
+
+##using for loop
+#print 0 to 9 using for loop
+
+for x in range(10):
+    print(x)
+    
+#print 5 to 15
+for x in range(5,16):
+    print(x)
+    
+#while loop
+a = 1
+while(a<=10):
+    print(a)
+    a=a+1
+    
+b = 10
+while(b>=2):
+    print(b)
+    b=b-1
+    
+  """
+  
+list = ["blue","green","purple","black","yellow"]
+print(len(list))  
+    
+for x in range(len(list)):
+    print(x)
+    
+for x in range(len(list)-1,-1,-1):
+    print(x)
+    
+num = ["my","i","say"]
+a = 0
+while(a<3):
+    print(num[a])
+    a=a+1
+    #while loop
+

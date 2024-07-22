@@ -57,5 +57,29 @@ fruit = ["aam","kela","chiko","gam"]
 fruit.extend(["strawberry","cherry"])
 print(fruit)                     #extend list output: ['aam', 'kela', 'chiko', 'gam', 'strawberry', 'cherry']
 
+#22/07/24
+
+color1 = ["red","blue","green","lemon","black"]
+color2 =color1
+color1[2]="white"
+print(color2)
+print(color1)  #['red', 'blue', 'white', 'lemon', 'black']
+
+color2 =color1.copy()
+color2[1]="purple"
+print(color2)  #['red', 'purple', 'white', 'lemon', 'black']
+print(color1)  # ['red', 'blue', 'white', 'lemon', 'black']
 
 
+let1 = [12,23,45]
+let2 = let1
+let2[2]=90
+print(let2)
+print(let1)
+
+
+let1=let2.copy()
+let1[0]=100
+print(let1)
+let2[2]=1000
+print(let2)
