@@ -80,6 +80,6 @@ print(let1)
 
 let1=let2.copy()
 let1[0]=100
-print(let1)
+print(let1)  #[100, 23, 90]
 let2[2]=1000
-print(let2)
+print(let2)  #[12, 23, 1000]

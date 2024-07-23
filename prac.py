@@ -114,7 +114,7 @@ while(b>=2):
     print(b)
     b=b-1
     
-  """
+  
   
 list = ["blue","green","purple","black","yellow"]
 print(len(list))  
@@ -131,4 +131,75 @@ while(a<3):
     print(num[a])
     a=a+1
     #while loop
+"""
+
+for x in range(11):
+    print(x)
+
+for x in range(2,16):
+    print(x)
+
+
+num = 10
+while(num>1):
+    print(num)
+    num = num-1
+
+
+list = ["mango","apple","grapes","banana","papaya"]
+for x in range(len(list)):
+    print(x)
+for x in range(len(list)-1,-1,-1):
+    print(x)
+
+for x in list:
+    print(x)
+
+#22/07/24
+
+#append
+names = ["chaitanya","mangesh","apurva","adrsh","ankit","milind"]
+names.append("Neha")
+print(names)
+
+#pop
+names.pop()
+print(names)
+names.pop(2)
+print(names)
+
+#remove
+names.remove("adrsh")
+print(names)
+
+#sort
+names.sort()
+print(names)
+
+#reverse
+names.reverse()
+print(names)
+
+#insert
+names.insert(2,"neha")
+print(names)
+
+#extende
+names.extend(["adarsh","Ruchika"])
+print(names)
+
+#index
+a = names.index("Ruchika")
+print(a)
+
+#clear
+names.clear()
+print(names)
+
+#copy
+let1 = ["priya","sonu"]
+let2=let1.copy()
+let2[0]="supriya"
+print(let1)
+print(let2)
 
