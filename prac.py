@@ -131,7 +131,7 @@ while(a<3):
     print(num[a])
     a=a+1
     #while loop
-"""
+
 
 for x in range(11):
     print(x)
@@ -203,3 +203,36 @@ let2[0]="supriya"
 print(let1)
 print(let2)
 
+"""
+#23/07
+
+info = {
+    "fname":"ruchika",
+    "lname":"kumbhare",
+    "year":2002,
+    "age":22,
+}
+
+#retrieve
+
+print(info)
+print(info['fname'])
+
+#update
+info['fname']="ruchi"
+print(info)
+
+#add
+
+info["city"]="Nagpur"
+print(info)
+
+print(len(info))
+
+print("age" in info)
+
+for key in info:
+    print(key)
+    
+for key in info:
+    print(key,info[key])

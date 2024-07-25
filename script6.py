@@ -33,11 +33,6 @@ for key in info:
 
 print(len(info))
 
-"""
 
 
 
-# how to find total number of properties in dictionary
-q2 = len(vehicle)
-print(q2)
-"""
