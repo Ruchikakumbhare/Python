@@ -57,10 +57,37 @@ student1 = {
     "age" :25,
 }
 for x in student1.values():
-    print(x)
+    print(x)                      # anika thapar  25
     
 for x in student1.keys():
-    print(x)
-    
+    print(x)                      #fname lname age
+     
 for x in student1.items():
-    print(x)
+    print(x)                      # ('fname', 'Anika')('lname', 'Thapar')('age', 25)
+    
+# # program 2
+# info = {
+#     "firstName":"chinmay",
+#     "lastName":"deshpande",
+#     "age":23
+# }
+
+ #e = dict.fromskey(["fn","ln","ag"])
+# print(e)
+# e.setdefault('lastName',"Dani")
+# e.setdefault('city',"pune")
+# print(e)
+
+
+student2 = {
+    "fname" : "Akriti",
+    "lname" : "sharma",
+    "age" :25,
+}
+
+a =dict.fromkeys(["fn","ln","no"])
+print(a)                                 #{'fn': None, 'ln': None, 'no': None}
+
+a.setdefault("lastname","pawar")
+a.setdefault('city','nagpur')
+print(a)

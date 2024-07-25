@@ -1,3 +1,5 @@
+#dict
+
 info = {
     "fname":"Ruchi",
     "lname":"kumbhare",
