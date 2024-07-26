@@ -1,6 +1,6 @@
 #........list methods
 # 10 list methods
-#append(),pop(),remove(),index(),sort(),extend(),reverse(),clear(),count(),insert()
+#.....................append(),pop(),remove(),index(),sort(),extend(),reverse(),clear(),count(),insert()
 
 
 #list = ["blue","red","green","pink","purple","black"]

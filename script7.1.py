@@ -46,11 +46,3 @@ for x in movies.values():
 for x in movies.items():
     print(x)
     
-food = {
-    "soup" : "manchau",
-    "fruit": "mango",
-    "Dish": "Dosa",
-    "drink":"Fruity",
-    "icecream":"chocochips"
-}
-print("drink"[0])

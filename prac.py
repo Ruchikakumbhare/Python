@@ -203,8 +203,8 @@ let2[0]="supriya"
 print(let1)
 print(let2)
 
-"""
-#23/07
+
+#23/07  dict
 
 info = {
     "fname":"ruchika",
@@ -236,3 +236,21 @@ for key in info:
     
 for key in info:
     print(key,info[key])
+    
+    """
+    
+name  = ("babita","radhika","anant","deepika")
+print(len(name))
+
+a = name.index("anant")
+print (a)
+
+b = name.count("babita")
+print(b)
+
+name = list(name)
+name[1]="supriya"
+print(name)
+
+a,b,c,d = name
+print(a)

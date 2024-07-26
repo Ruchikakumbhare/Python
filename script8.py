@@ -49,6 +49,9 @@ print(a1)                                         #0
 x = (100,200,300,400)
 a,b,c,d = x
 print(a)
+print(b)
+print(a)
+print(a)
 
 
 
