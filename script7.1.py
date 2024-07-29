@@ -108,3 +108,4 @@ print(type(list))
 
 list1 = "neha","ruchi"
 print(type(list1))
+

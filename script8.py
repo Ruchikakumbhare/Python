@@ -1,6 +1,7 @@
 #.......................tuple()................................25/07
 
 info = ("riya",'ridhi','sidhi',"meena")#------------------------> tuple
+print(info[0])
 print(info)
 print(len(info))
 print(type(info)) # <class 'tuple'>
