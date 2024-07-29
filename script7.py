@@ -64,19 +64,7 @@ for x in student1.keys():
      
 for x in student1.items():
     print(x)                      # ('fname', 'Anika')('lname', 'Thapar')('age', 25)
-    
-# # program 2
-# info = {
-#     "firstName":"chinmay",
-#     "lastName":"deshpande",
-#     "age":23
-# }
 
- #e = dict.fromskey(["fn","ln","ag"])
-# print(e)
-# e.setdefault('lastName',"Dani")
-# e.setdefault('city',"pune")
-# print(e)
 
 
 student2 = {
@@ -91,3 +79,16 @@ print(a)                                 #{'fn': None, 'ln': None, 'no': None}
 a.setdefault("lastname","pawar")
 a.setdefault('city','nagpur')
 print(a)
+
+food = {
+    "soup" : "manchau",
+    "fruit": "mango",
+    "Dish": "Dosa",
+    "drink":"Fruity",
+    "icecream":"chocochips"
+}
+
+b=dict.fromkeys(["sn",'st'])
+print(b)
+b.setdefault('chips',"paneer")
+print(b)

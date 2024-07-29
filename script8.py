@@ -32,9 +32,16 @@ while(a<len(color)):
  
 color2="pink","purple","blue","black"
 #color2[3]="white"                        #tuples main direct update nhi ho skta so we convert tuple in list
-color2=list(color2)
-color2[2]="white"
-print(color2)                              #['pink', 'purple', 'white', 'black']   convert list main kiya 
+#color2=list(color2)
+#color2[2]="white"
+#print(color2)                              #['pink', 'purple', 'white', 'black']   convert list main kiya 
+
+ 
+ 
+ 
+ 
+ 
+ 
  
 # two methods only 1) count          2) index
  
@@ -54,7 +61,9 @@ print(a)
 print(a)
 
 
-
+y = "neha","ruchika","pinki"
+a,b,c = y
+print(a)
 
 
 

@@ -67,7 +67,8 @@ for x in range(len(fruit)):
     print(fruit[x])
 
 
-
+for x in range(11):
+    print(x)
 
 
 

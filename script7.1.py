@@ -1,3 +1,5 @@
+
+"""
 food = {
     "soup" : "manchau",
     "fruit": "mango",
@@ -46,3 +48,63 @@ for x in movies.values():
 for x in movies.items():
     print(x)
     
+"""
+#dict
+
+biodata = {
+    "fname":"neha",
+    "lname":"Kosare",
+    "age":20
+}
+
+print(len(biodata))
+
+#retrive
+
+print(biodata['fname'])
+print(biodata['lname'])
+
+biodata['city']="pune"
+print(biodata)
+
+biodata['fname']="Avinash"
+print(biodata)
+
+for key in biodata:
+    print(key)
+  
+Movies = {
+    "hero":"ranbir",
+    "heroine":"shardha",
+    "city":"pune"
+}
+print(Movies['hero'])
+#print(Movies["age"])
+a=Movies.get('age')
+print(a)
+
+a1=Movies.pop('city')
+print(Movies)
+
+#Movies.popitem()
+#print(Movies)
+
+#Movies.clear()
+#print(Movies)
+
+Movies.update({"hero2":"Vinky"})
+print(Movies)
+
+Movies1 = Movies.copy()
+Movies1['hero']="varun"
+print(Movies1)
+print(Movies)
+
+
+
+list = ("neha","ruchi")
+print(type(list))
+
+
+list1 = "neha","ruchi"
+print(type(list1))
