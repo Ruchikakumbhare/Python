@@ -87,6 +87,6 @@ str13 = "rk12345"
 str14 = "ruchi"
 str15 = "567"
 
-print(str13.isalnum())
-print(str14.isalnum())
-print(str15.isalnum())
+print(str13.isalnum())    #true
+print(str14.isalnum())    #true
+print(str15.isalnum())    #true
