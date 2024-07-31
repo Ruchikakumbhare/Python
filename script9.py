@@ -25,9 +25,13 @@
 
 #....................string Methods........................................
 # upper(),lower(),captalize(),isupper(),istitle(),startswith(),endswith(),isdecimal(),isalpha(),isalnum()
+#strip(),lstrip(),rstrip(),join(),count(),join(),index(),find()-------------------->18
 
+'''
 #program1
 name = "rUCHIKa"
+#print('r' in name)    
+
 a =name.upper()
 print(a)                  #RUCHIKA
 
@@ -58,6 +62,8 @@ print(a6)                 #false because of v-diff
 a7=nam.startswith("Ver")
 print(a7)                 #True
 
+a8=nam.endswith('ood')
+print(a8)
 
 #program4
 
@@ -90,3 +96,53 @@ str15 = "567"
 print(str13.isalnum())    #true
 print(str14.isalnum())    #true
 print(str15.isalnum())    #true
+'''
+#...................................................................
+color = " YELLOW "     #8
+print(len(color))
+
+x=color.strip()
+print(len(x))          #6
+
+color1=" blue "       #total length #6
+x1=color1.lstrip()
+print(len(x1))         #5
+
+x2=color1.rstrip()
+print(len(x2))        #5
+  
+x3=color.count('L')
+print(x3)             #2
+
+info = ["ruchi","kajal"]
+print(info)
+e2 = "-".join(info)
+print(e2)               #ruchi-kajal
+
+info2 = ["ruchi","gmail.com"]
+e3 = "@".join(info2)
+print(e3)                 #ruchi@gmail.com
+
+e4="/".join(info2)
+print(e4)                  #ruchi/gmail.com
+
+
+#.........................................
+
+fname = "Ruchika"
+lname = "kumbhare"
+print("my name is {} and my surname is {}" .format(fname,lname))        #my name is Ruchika and my surname is kumbhare
+print(f"my name is {fname} and surname is {lname}")               #my name is Ruchika and surname is kumbhare
+
+
+
+
+city = "NAGPUR"
+
+#print(city.index('u'))     #small u nhi hai isly error
+print(city.index('U'))      #4
+
+print(city.find('U'))
+print(city.find('i'))    #-1
+
+
