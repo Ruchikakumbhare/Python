@@ -27,7 +27,6 @@
 # upper(),lower(),captalize(),isupper(),istitle(),startswith(),endswith(),isdecimal(),isalpha(),isalnum()
 #strip(),lstrip(),rstrip(),join(),count(),join(),index(),find()-------------------->18
 
-'''
 #program1
 name = "rUCHIKa"
 #print('r' in name)    
@@ -96,7 +95,7 @@ str15 = "567"
 print(str13.isalnum())    #true
 print(str14.isalnum())    #true
 print(str15.isalnum())    #true
-'''
+
 #...................................................................
 color = " YELLOW "     #8
 print(len(color))
