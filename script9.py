@@ -25,7 +25,7 @@
 
 #....................string Methods........................................
 # upper(),lower(),captalize(),isupper(),istitle(),startswith(),endswith(),isdecimal(),isalpha(),isalnum()
-#strip(),lstrip(),rstrip(),join(),count(),join(),index(),find()-------------------->18
+#strip(),lstrip(),rstrip(),join(),count(),index(),find()-------------------->18
 
 #program1
 name = "rUCHIKa"
@@ -43,7 +43,7 @@ print(a2)                 #isse lettr formet main aaye proper way main Ruchika
 #program2
 name1="RUCHIKA"
 a3=name1.isupper()
-print(a3)                  #TRUE     pura string capital to true
+print(a3)                  #TRUE     pura string capital to false
 
 
 #program3

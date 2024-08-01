@@ -17,7 +17,7 @@ for x in set:
     
 #.......................................set methods......................................
 
-# add(),clear(),copy(),pop(),remove()
+# add(),clear(),copy(),pop(),remove(),update()
 #add
 set1 = {"ruchi","riya","preety"}
 set1.add('neha')
@@ -54,3 +54,5 @@ color ={'blue',"green"}
 color.remove('blue')
 print(color)       #{'green'}
     
+nam11.update({'soniya','piniki'})
+print(nam11)
