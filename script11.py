@@ -1,5 +1,5 @@
 
-
+# set practice..............
 color = {'blue','red','brown','pink','orange'}
 print(type(color))
 print(color)
@@ -26,4 +26,5 @@ color1.clear()
 print(color1)
 
 color.update({'skin','yellow','purple'})
-print(color)
+print(color)             #{'skin', 'yellow', 'red', 'brown', 'black', 'blue', 'purple'}update the det
+

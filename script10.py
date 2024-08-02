@@ -55,4 +55,4 @@ color.remove('blue')
 print(color)       #{'green'}
     
 nam11.update({'soniya','piniki'})
-print(nam11)
+print(nam11)               #upadte hojynga set  {'soniya', 'piniki', 'neha', 'astha', 'priya'}

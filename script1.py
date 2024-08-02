@@ -21,8 +21,6 @@ print(a % b)
 # function
 def calcy(x, y):
     print(x + y)
-
-
 calcy(20, 10)
 
 
@@ -30,8 +28,6 @@ calcy(20, 10)
 
 def number():
     print(10 + 100)
-
-
 number()
 
 
@@ -58,11 +54,23 @@ print(type(a))
 
 """
 
-for x in range(50,0,-1):
-    print(x)
+# for x in range(50,-1,-1):
+#     print(x)
 
     
-a = 50
-while(a>=0):
-    print(a)
-    a=a-1
+# a = 50
+# while(a>=0):
+#     print(a)
+#     a=a-1
+    
+    
+for x in range(10):
+    print(x)
+    
+for x in range(10,-1,-1):
+    print(x)
+    
+i = 10
+while(i>=0):
+    print(i)
+    i=i-1
