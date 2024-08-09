@@ -41,15 +41,12 @@ num5 = {100,200,40,50,33,66}
 num6 = {25,66,50}
 l=num5.symmetric_difference(num6)
 print(l)                                   #ismain  same value chod denga {100,200,40,25,33}
-
 num5.symmetric_difference_update(num6)
 print(num5)
 
 #program6
-
-
 setN = {11,22}
 setM = {11,22,33,66}
 
-print(setN.issubset(setM))
-print(setM.issuperset(setN))
+print(setN.issubset(setM)) #true
+print(setM.issuperset(setN)) #true
