@@ -48,22 +48,6 @@ print(add3.lname)
 print(add2.city)
 print(add3.city)
 
-#     def changeCountry(self,nc):
-#         self.country = nc
-
-# amit =  PersonC("amit","bhure")
-# amit2 =  PersonC("amit2","bhure2")
-# print(amit.firstName)
-# print(amit.lastName)
-# print(amit.country)
-
-# print(amit2.firstName)
-# print(amit2.lastName)
-# print(amit2.country)
-
-# amit2.changeCountry("bharat")
-# print(amit2.country)
-# print(amit.country)
 
 # # instance 
 

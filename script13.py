@@ -84,7 +84,6 @@ a5=inform(infor)
 print(a5)
   
 # tuple as a parameter and tuple as a return type
- 
 num = (11,22,34,55)
 def adde(tup):
     tup = list(tup)
@@ -97,18 +96,9 @@ print(a6)
 # set as a parameter and set as a return type 
 a1 = {11,22,33,44}
 print(type(a1))
-
 def adde(ele):
     ele.add(70)
     ele.add(3000)
     return ele
 a7=adde(a1)
 print(a7)
-
-
-# g = {11,22,33,44,55,66}
-# def addV(setB):
-#     setB.add(35)
-#     return setB
-# w = addV(g)
-# print(w)

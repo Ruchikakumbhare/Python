@@ -1,6 +1,4 @@
 
-
-
 #basic function
 def no(x,y):
     return x+y
@@ -50,8 +48,9 @@ def mul(fn,x,y):
 b=mul(add3,40,10)
 print(b)
 
-# # function as a return type 
 
+#........................Program4
+# function as a return type 
 def division():
     return lambda x,y:x/y
 e = division()
