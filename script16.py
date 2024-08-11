@@ -60,4 +60,4 @@ number = [10,20,30,40]
 add = 0
 for x in number:
     add = add + x
-print(add)
+print(add)  #100

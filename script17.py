@@ -1,78 +1,72 @@
-# class Person:
-#     first_name  = None
-#     last_name = None
-#     age = None
-#     rollNo = None
+year = [2002,2003]
+age = []
+for x in year:
+    ag =2024-x
+    age.append(ag)
+print(age)
 
-#     def display_name(self):
-#         print(self.first_name + self.last_name)
+x1=(list(map(lambda x : 2024-x,year)))
+print(x1)
 
-# amol = Person()
-# # print(amol.first_name)
-# # print(amol.last_name)
-# # print(amol.age)
-# # print(amol.rollNo)
-# #amol.display_name()
+# list comprehension
+#[expression:loop:condition(only one condition)]
+x2 =[2024-x for x in year]
+print(x2)
 
-# # amol.first_name = "amol"
-# # amol.last_name = "rao"
-# # amol.rollNo = 23
-# # amol.age = 34
-# # amol.display_name()
+x3=[2023-x for x in year]
+print(x3)
 
+x4=[2022-x for x in year]
+print(x4)
+# program 2
+transactions = [9900,-1923,8000,4455,6666,-777,888,-444]
 
-# # program 2
-# # Setting the value at the time of object creation
-
-# class Person2:
-
-#     # constructor
-#     def _init_(self,fn,ln,ag,rn):
-#         self.firstName = fn 
-#         self.lastName = ln 
-#         self.age = ag
-#         self.rollNo = rn
-
-#     def displayName(self):
-#         print(self.firstName + self.lastName)
-
-# amolD = Person2("amolD","raoD",34,55)
-# print(amolD.firstName)
-# print(amolD.lastName)
-# print(amolD.age)
-# print(amolD.rollNo)
+q=(list(filter(lambda x : x<0,transactions)))
+print(q)
+q1=[x<0 for x in transactions]
+print(q1)
 
 
-# # program 3
+deposit = []
+for x in transactions:
+    if x > 0:
+        deposit.append(x)
+print(deposit)
 
-# class PersonC:
-#     country = "India"
-#     def _init_(self,fn,ln):
-#         self.firstName = fn 
-#         self.lastName = ln
 
-#     def display_name(self):
-#         print(self.firstName + self.lastName)
+# program 4 
+no = [20,30,40]
+total = 0
+for x in no:
+    total = total + x
+print(total)
 
-#     def changeCountry(self,nc):
-#         self.country = nc
+from functools import reduce
+print(reduce(lambda acc,el : acc+el, no))
 
-# amit =  PersonC("amit","bhure")
-# amit2 =  PersonC("amit2","bhure2")
-# print(amit.firstName)
-# print(amit.lastName)
-# print(amit.country)
 
-# print(amit2.firstName)
-# print(amit2.lastName)
-# print(amit2.country)
 
-# amit2.changeCountry("bharat")
-# print(amit2.country)
-# print(amit.country)
 
-# # instance 
+numbersB = [11,22,33,44]
 
-# # class methods 
 
-# # static methods
+evenOdd = []
+for x in numbersB:
+    if x % 2 == 0:
+        evenOdd.append('even')
+    else:
+        evenOdd.append('odd')
+print(evenOdd)
+
+
+a = ["even" if x%2 ==0 else "odd" for x in numbersB]
+print(a)
+# e2 = ["even" if x % 2 == 0 else "odd" for x in numbersB]
+# print(e2)
+
+
+print([x * 2 for x in range(1,11)])
+
+print([x*3 for x in range(1,11)])
+for x in range(2,21,2):
+    print(x)
