@@ -1,74 +1,74 @@
 
-# # program 1: single inheritance - parent contructor , child no contructor
+# program 1: single inheritance - parent contructor , child  no contructor
 
-# class student:
-#     fname = "Priyanka"
-#     lname = "Sarwa"
-#     city = "Mumbai"
+class student:
+    fname = "Priyanka"
+    lname = "Sarwa"
+    city = "Mumbai"
     
-#     def display_N(self):
-#         print(self.fname  +  self.lname)
+    def display_N(self):
+        print(self.fname  +  self.lname)
         
-# class Teacher(student):
-#     country = " india"
-#     def display_c(self):
-#         print(self.country)
+class Teacher(student):
+    country = " india"
+    def display_c(self):
+        print(self.country)
 
-# x = Teacher()
-# x.display_c()
-# x.display_N()
+x = Teacher()
+x.display_c()
+x.display_N()
 
 
-# # program 2:  single inheritance - parent contructor , child  contructor
+# program 2:  single inheritance - parent contructor , child  contructor
 
-# class Student1:
-#     def __init__(self,fn,ln):
-#         self.fname = fn
-#         self.lname = ln
+class Student1:
+    def __init__(self,fn,ln):
+        self.fname = fn
+        self.lname = ln
         
-#     def display(self):
-#        print(self.fname + self.lname)
+    def display(self):
+       print(self.fname + self.lname)
        
-# class Teacher1(Student1):
-#     def __init__(self, fn, ln,sal):
-#         super().__init__(fn, ln)     
-#         self.salary = sal
-#     def displaysal(self):
-#         print(self.salary)
+class Teacher1(Student1):
+    def __init__(self, fn, ln,sal):
+        super().__init__(fn, ln)     
+        self.salary = sal
+    def displaysal(self):
+        print(self.salary)
         
-# x1 = Teacher1('Ruchika','Kumbhare',12000)
-# x1.displaysal()
-# x1.display()
+x1 = Teacher1('Ruchika','Kumbhare',12000)
+x1.displaysal()
+x1.display()
 
 
-# #program 3 :multi-level Inheritence
-# class GrandFather:
-#     def __init__(self,fn,ln):
-#         self.fname = fn
-#         self.lname  = ln
+#program 3 :multi-level Inheritence
+class GrandFather:
+    def __init__(self,fn,ln):
+        self.fname = fn
+        self.lname  = ln
         
-#     def display(self):
-#         print(self.fname + self.lname)
+    def display(self):
+        print(self.fname + self.lname)
         
-# class Father(GrandFather):
-#     def __init__(self, fn, ln,ag):
-#         super().__init__(fn, ln)
-#         self.age = ag
-#     def dispalyag(self):
-#         print(self.age)
+class Father(GrandFather):
+    def __init__(self, fn, ln,ag):
+        super().__init__(fn, ln)
+        self.age = ag
+    def dispalyag(self):
+        print(self.age)
 
-# class Son(Father):
-#     def __init__(self, fn, ln, ag,sal):
-#         super().__init__(fn, ln, ag)
-#         self.salary = sal
-#     def displaysal(self):
-#         print(self.salary)
+class Son(Father):
+    def __init__(self, fn, ln, ag,sal):
+        super().__init__(fn, ln, ag)
+        self.salary = sal
+    def displaysal(self):
+        print(self.salary)
         
-# x2 = Son('sanskar','Gupta',45,2000)
-# x2.dispalyag()
-# x2.displaysal()
+x2 = Son('sanskar','Gupta',45,2000)
+x2.dispalyag()
+x2.displaysal()
 
-
+#program4 exercise
 class GrandF:
     def __init__(self,gfn,ln) :
         self.gname = gfn
@@ -103,43 +103,3 @@ x3.display_sn()
 
 
 
-
-
-
-# # program 3
-# # multilevel
-
-# class GrandFather:
-#     def _init_(self,fn,ln):
-#         self.firstName = fn 
-#         self.lastName = ln
-
-#     def displayName(self):
-#         print(self.firstName + self.lastName)
-
-
-# class Father(GrandFather):
-#     def _init_(self,fn,ln,ffn):
-#         super()._init_(fn,ln)
-#         self.fname = ffn
-    
-#     def displayFName(self):
-#         print(self.fname + self.lastName)
-
-# class Son(Father):
-#     def _init_(self, fn, ln, ffn,ssn):
-#         super()._init_(fn, ln, ffn)
-#         self.sname = ssn
-
-#     def displaySname(self):
-#         print(self.sname + self.lastName)
-
-# chinmay = Son("manohar","deshpande","shirish","chinmay")
-# print(chinmay.firstName)
-# print(chinmay.lastName)
-# print(chinmay.sname)
-# print(chinmay.fname)
-
-# chinmay.displayFName()
-# chinmay.displayName()
-# # chinmay.displaySname()

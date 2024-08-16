@@ -32,3 +32,17 @@ def mul(fn,x,y):
     return z
 z4=mul(a4,200,100)
 print(z4)
+
+
+
+
+no = [2,4,6,8]
+new = []
+for x in no:
+    if x % 2 ==0:
+        new.append('even')
+    else:
+        new.append('odd')
+
+print(new)
+
