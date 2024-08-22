@@ -68,7 +68,7 @@ x2 = Son('sanskar','Gupta',45,2000)
 x2.dispalyag()
 x2.displaysal()
 
-#program4 exercise
+# exercise
 class GrandF:
     def __init__(self,gfn,ln) :
         self.gname = gfn
@@ -101,5 +101,35 @@ x3.display_gn()
 x3.display_fn()
 x3.display_sn()
 
+# Program4 : Hierarchical inheritance
 
+class mother:
+    def __init__(self,mn,ln):
+        self.mname = mn
+        self.lname = ln
+        
+    def display(self):
+        print(self.mname + self.lname)
+class son(mother):
+    def __init__(self, mn, ln,sn):
+        super().__init__(mn, ln)
+        self.sname = sn
+    def display_s(self):
+        print(self.sname)
+class daughter(mother):
+    def __init__(self, mn, ln,dn):
+        super().__init__(mn, ln)
+        self.dname = dn
+    def display_d(self):
+        print(self.dname)
+        
+w1 = son('Alka','Kumbhare','Rohit')
+w2 = daughter('Shobha','Bhisikar','Payal')
+print(w1.mname)
+print(w1.lname)
+print(w1.sname)
+print(w2.dname)
+w1.display()
+w1.display_s()
+w2.display_d()
 
