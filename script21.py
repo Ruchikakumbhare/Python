@@ -133,3 +133,42 @@ w1.display()
 w1.display_s()
 w2.display_d()
 
+# Program5 Multiple inheritance
+class mother:
+    def __init__(self,mfn,mln):
+        self.mfname = mfn
+        self.mlname = mln
+    def display(self):
+        print(self.fname + self.lname)
+
+class father:
+    def __init__(self,ffn,fln):
+        self.ffname = ffn
+        self.flname = fln
+
+    def display_F(self):
+        print(self.ffname + self.flname)
+
+# class daughter(mother,father):
+#     def __init__(self, mfn, mln,dn):
+#         super().__init__(mfn, mln)
+#         self.dname = dn
+    
+#     def display_d(self): 
+#         print(self.dname)    a1 = daughter("Alka","Kumbhare","Ruchika")
+    
+class daughter(father,mother):
+    def __init__(self, ffn, fln,dn):
+        super().__init__(ffn, fln)
+        self.dname = dn
+    def display_d(self):
+        print(self.dname)
+
+a = daughter("SAnjay","Kumbhare","Ruchika")
+
+
+
+
+
+
+

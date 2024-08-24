@@ -1,3 +1,4 @@
+# Duck Typingg
 #----------- Program1
 # Polymorphism  poly ---many ,,morphism --one thing
 
