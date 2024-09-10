@@ -51,13 +51,4 @@ x6.close()
 
 
 
-# f1 = open('names2.txt',"+a")
-# print('please enter the "@" to exist')
-# while(str != "@"):
-#     str = input('please enter the name :')
-#     if str != "@":
-#         f1.write(str + "\n")
-# f1.seek(0,0)
-# str = f1.read()
-# print(str)
-# f1.close()
+

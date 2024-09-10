@@ -25,10 +25,3 @@ while(str!="1"):
     if str !="1":
         x2.write(str + "\n")
 x2.close()
-# x5=open('name.txt','w')
-# print('please enter "@" to exit')
-# while(str!="@"):
-#     str = input('please enter multiple name : ')
-#     if str != "@":
-#         x5.write(str +"\n") 
-# x5.close()
