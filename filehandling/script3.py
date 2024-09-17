@@ -43,33 +43,41 @@
 
 # -----------------------------------------------------------------------------
 # program 4
-# class teachers:
-#     def __init__(self,fn,ln) -> None:
-#         self.fname = fn
-#         self.lname = ln 
-#     def display(self):
-#         print(self.fname + self.lname)
+class teachers:
+    def __init__(self,fn,ln) -> None:
+        self.fname = fn
+        self.lname = ln 
+    def display(self):
+        print(self.fname + self.lname)
 
-# import pickle
-# f=open('stu.data','wb')
-# a = int(input('number of object : '))
+import pickle
+f=open('stu.data','wb')
+a = int(input('number of object : '))
 
-# for x in range(a):
-#     fn = input('enter fname : ')
-#     ln = input('enter lname : ')
-#     z=teachers(fn,ln)
-#     pickle.dump(z,f)
-# f.close()
+for x in range(a):
+    fn = input('enter fname : ')
+    ln = input('enter lname : ')
+    z=teachers(fn,ln)
+    pickle.dump(z,f)
+f.close()
 
-# f = open('stu.data','rb')
-# while True:
-#     try:
-#         e = pickle.load(f)
-#         e.display()
-#     except EOFError:
-#         print('end of the file')
-#         break
 
+
+
+
+
+
+
+f = open('stu.data','rb')
+while True:
+    try:
+        e = pickle.load(f)
+        e.display()
+    except EOFError:
+        print('end of the file')
+        break
+    
+#-----------------------------------------------------------------------
 
 l1 = 10
 with open('name.bin','wb') as f:
@@ -81,15 +89,6 @@ with open('name.bin','wb') as f:
         f.write(name)
 
 
-# reclen = 10
-
-# with open('name.bin',"wb") as f:
-#     n = int(input('enter the number of name'))
-#     for x in range(n):
-#         name = input('enter the names :') # chinmay  sham
-#         name = name + ((reclen - len(name))) * " " # 'chinmay   '
-#         name = name.encode()
-#         f.write(name)
 
 
 
