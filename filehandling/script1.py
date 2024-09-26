@@ -1,4 +1,5 @@
 #file handling ----->read,write,append
+# it is the process of writing , reading and manging files of computer system using inbuilt methods and functions.
 #--------------------------------program1
 # creating the object of file and opening in write mode
 
@@ -56,3 +57,9 @@
 # x.close()
 
 
+try:
+    with open('f1.txt','rb') as f:
+       x = f.read()
+       print(x)
+except FileNotFoundError:
+    print('file not found')
