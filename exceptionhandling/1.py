@@ -201,15 +201,6 @@ try:
 except FileNotFoundError:
     print('file not found')
 
-# try:
-#     with open('filetext2.txt',"r+") as f:
-#         c = f.read()
-#         print(c)
-# except FileNotFoundError:
-#     print("File not found")
-
-# # finally:
-# #     f.close()
 
 
-# # Keyerror exception
+
